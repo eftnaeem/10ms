@@ -1,0 +1,30 @@
+.img1{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 280px;
+}
+@media only screen and (max-width:1000px){
+   .info-head>h1{
+      text-align: center;
+      color: blueviolet;
+      position: relative;
+      
+   }  
+}
+
+@media only screen and (max-width: 570px) {
+   .info-head>h1{
+      text-align: center;
+      
+      position: relative;
+   }
+   p{
+      position: relative;
+   }
+   h1{
+      position: sticky ;
+      font-size: 25px;
+      clear: both;
+   }
+   }
