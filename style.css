@@ -2,10 +2,6 @@ body{
    margin:0;
    padding:0 ;
 }
-.align{
-text-align: center;
-padding-left: 50px;
-}
 h1{
    font-size: 50px;
 }
@@ -30,11 +26,27 @@ p{
    background-repeat: no-repeat;
    
 }
-.top{
-   padding-top: 50%;
-   width: 420px;
-}
 .border{
    border-left: solid red 5px;
    padding-right: 8px;
+   font-size: 22px;
+   padding-left: 5px
+
+}
+.half-mid{
+   clear: both;
+   float:right;
+   padding-right:100px;
+}
+.font{
+   font-size: x-large;
+   padding-left: 50px;
+   color:rgb(245, 134, 30);
+}
+*{
+   clear: both;
+   padding:5px;
+}
+.footer{
+   text-align: center;
 }
